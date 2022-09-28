@@ -24,6 +24,8 @@ export default {
 
       const res = await axios.get('https://api.thecatapi.com/v1/images/search?breed_ids='+catId+'')
       //console.log(res),
+      console.log("haha"),console.log("haha"),console.log("haha"),console.log("haha"),console.log("haha"),
+      
         this.catlist = res.data;
     } catch (e) {
       console.log('error');
